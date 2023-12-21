@@ -17,9 +17,12 @@
             <field name="name">hr.contract.type.form</field>
             <field name="model">hr.contract.type</field>
             <field name="arch" type="xml">
-                <form string="Contract Type ALVARO-f3">
+                <form string="Contract Type">
                     <group col="4">
-                        <field colspan="14" name="name"/>
+                        <field colspan="4" name="name"/>
+                    </group>
+                    <group col="4">
+                        <field colspan="4" name="name"/>
                     </group>
                 </form>
             </field>
@@ -29,7 +32,11 @@
             <field name="name">hr.contract.type.tree</field>
             <field name="model">hr.contract.type</field>
             <field name="arch" type="xml">
-                <tree string="Contract Type ALVARO-f3">
+                <tree string="Contract Type">
+                    <field name="sequence" widget="handle"/>
+                    <field colspan="4" name="name"/>
+                </tree>
+                <tree string="Contract Type">
                     <field name="sequence" widget="handle"/>
                     <field colspan="4" name="name"/>
                 </tree>
