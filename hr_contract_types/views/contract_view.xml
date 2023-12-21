@@ -19,7 +19,7 @@
             <field name="arch" type="xml">
                 <form string="Contract Type">
                     <group col="4">
-                        <field colspan="4" name="name"/>
+                        <field colspan="14" name="name"/>
                     </group>
                 </form>
             </field>
